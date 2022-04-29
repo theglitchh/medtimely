@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'hack', sans-serif;
+
+}
+
+.navbar{
+
+    position: sticky;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: #d8dee9;
+    z-index: 9;
+
+}
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.MedTimely{
+    height: 60px;
+    margin-left: -120px;
+}
+.Top-items{
+    display: flex;
+    align-items: center;
+}
+.searchbar {
+    width: 500px;
+    display: flex;
+}
+.search-box{
+    width: 48%;
+    height: 30px;
+    padding: 3px;
+    margin-left: 120px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 4px solid #4c566a;
+    text-transform: capitalize;
+    font-weight: bold; /* for bold search bar text*/
+    font-size: 16px;
+    background: #eceff4;
+    color:#2e3440;
+    outline: none;
+}
+.search-btn{
+    width: 20%;
+    height: 30px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #2e3440;
+    color:#e5e9f0;
+    text-transform: capitalize;
+    line-height: 1.5px;/* for centering text in button*/
+    text-align: center;
+    font-size: 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+}
+.search-box::placeholder{
+    color: #000000;
+}
+
+.Top-items a{
+margin-left: 20px;
+}
+.Top-items a img{
+    width: 30px;
+}
+
+.links-container{
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #d8dee9;
+}
+.link{
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #2e3440;
+    opacity: 0.5;
+    transition: .5s;
+}
+.link:hover{
+
+}
