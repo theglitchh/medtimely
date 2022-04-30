@@ -32,6 +32,7 @@ footer{
 }
 .category-title{
     font-weight: bold;
+    margin-right:300px;
     grid-column: span 2;
     text-transform:  capitalize;
     color: #2e3440;
@@ -49,20 +50,41 @@ footer{
 color:#bf616a;
 }
 
-.footer-link:hover{
-    color:blue;
-} 
 .footer-title, .info{
-    color:rgba(255,255,255,0.75);
-    margin:20px;
+
+    color:#2e3440;
+    margin:20px 0;
     text-transform: capitalize;
 }
 .footer-title{
-    margin-top:80px;
-    color:#fff;
+    margin-top: 80px;
+    color: #2e3440;
+    text-transform: capitalize;
+    font-weight: bolder;
 }
+
 .footer-social-container{
-    margin-top:40px; 
+    margin-top: 40px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+}
+.social-link{
+    color: #2e3440;
+    margin-left: 20px;
+}
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #d8dee9;
+    font-weight: bold;
+    font-size: 12px;
+    background: #2e3440;
+    margin-top: 40px;
 }
