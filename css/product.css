@@ -1,0 +1,86 @@
+.product-details{
+    width: 50%;
+
+    padding: 60px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.image-slider{
+    width: 300px;
+    height: 325px;
+    position: relative;
+    border:5px solid #5e81ac;
+
+    background: url('../image/image-details/paracetamol1.webp');
+    background-size: cover;
+}
+.product-images{
+    position: absolute;
+    bottom:20px;
+     /* height of image-slider */
+    left: 42px;
+    transform: translateX(-10%);
+    width: 90%;
+    background: #d8dee9;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    height: 110px;
+    grid-gap: 10px;
+    padding : 10px;
+
+}
+.product-images img{
+    width: 100%;
+    height: 90px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.product-images img:active{
+    border: 1px solid #d8dee9;
+}
+
+.details{
+    width: 80%;
+    margin-right: -300px;
+}
+.details .product-brand{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.details .product-short-des{
+    width: 600px;
+    font-size: 15px;
+    line-height: 30px;
+    height: auto;
+    margin: 15px 0 30px;
+}
+ .product-price{
+     font-weight: 700;
+    font-size: 30px;
+}
+ .product-actual-price{
+     font-size: 20px;
+     opacity: 0.5;
+     text-decoration:line-through;
+ }
+ .product-discount{
+     font-size: 20px;
+     font-weight: bolder;
+     color: #414c38;
+ }
+ .btn{
+     width: 48%;
+     padding: 20px;
+     border-radius: 5px;
+     background:#e8efff;
+     border: 2px solid #5e81ac;
+     font-size: 17px;
+     margin: 20px 0;
+     text-transform: capitalize;
+
+ }
+ .btn:hover{
+     background:#2e3440;
+     color: #fff;
+ }
