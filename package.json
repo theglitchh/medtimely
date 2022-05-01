@@ -1,0 +1,26 @@
+{
+  "name": "medtimely2",
+  "version": "1.0.0",
+  "description": "medicine delivery service",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedTimely/MedTimely.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MedTimely/MedTimely.github.io/issues"
+  },
+  "homepage": "https://github.com/MedTimely/MedTimely.github.io#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "express.js": "^1.0.0",
+    "firebase-admin": "^10.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
