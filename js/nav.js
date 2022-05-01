@@ -2,14 +2,14 @@ const createNav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
     <div class="nav">
-    <img src="image/logo2.png" class="MedTimely" alt="">
+    <img src="../image/newlogo.png" class="MedTimely" alt="">
     <div class="Top-items" >
         <div   class="searchbar">
             <input type="text" class="search-box" placeholder="Search Medicine">
             <button class = "search-btn">search</button>
         </div>
-        <a href="#"><img src = "image/user.png" alt=""></a>
-        <a href="#"><img src = "image/cart.png" alt=""> </a>
+        <a href="#"><img src = "../image/user.png" alt=""></a>
+        <a href="#"><img src = "../image/cart.png" alt=""> </a>
 
     </div>
 </div>
